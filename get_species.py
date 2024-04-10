@@ -21,6 +21,7 @@ species_names = [span.text for span in soup.find_all('span', {'class': 'Heading-
 
 print(species_names)
 
+print('stuff')
 # Database connection parameters
 db_params = {
     'dbname': 'birdex',
